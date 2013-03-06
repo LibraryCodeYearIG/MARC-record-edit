@@ -1,0 +1,20 @@
+# Edit MARC records the Python way!
+
+This project is for the preconference at ALA13
+
+## So, what is it, exactly?
+
+This project focuses on editing a file of MARC21 records using [pymarc] (https://github.com/edsu/pymarc). After modifying the files, the script then outputs a file for ingest into an ILS (the example file was written for the Millennium ILS).
+
+## Dependencies needed for this project
+
+- [pymarc] (https://github.com/edsu/pymarc).
+
+## Some license-y stuff
+
+The code excert comes from a script written for Miami University Libraries, Copyright (C): 2011. Libraries may freely use and adapt this script with due credit. Commercial use prohibited without written permission.
+
+## TODO 
+
+- Provide example MARC record file
+- Clean up code snippet so that it's actually functional. It's a part of a bigger script, and so some interconnecting parts need to be tied up.
