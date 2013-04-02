@@ -6,6 +6,11 @@ This project is for the preconference at ALA13
 
 This project focuses on editing a file of MARC21 records using [pymarc] (https://github.com/edsu/pymarc). After modifying the files, the script then outputs a file for ingest into an ILS (the example file was written for the Millennium ILS).
 
+## How do I run this thing?
+
+The specific command is ```python editrecord.py```
+The example marc record file has been included in the repo. **Make sure that the marc file is in the same directory as the editrecord.py file.** The repo structure has it that way, but if you want to play with your own set of records, you'll need to make sure that the file is in the same directory and that the script has been modified to use that file instead of the default exampledump.mrc file.
+
 ## Dependencies needed for this project
 
 - [pymarc] (https://github.com/edsu/pymarc).
@@ -16,5 +21,5 @@ The code excert comes from a script written for Miami University Libraries, Copy
 
 ## TODO 
 
-- Provide example MARC record file
-- Clean up code snippet so that it's actually functional. It's a part of a bigger script, and so some interconnecting parts need to be tied up.
+- ~~Provide example MARC record file~~
+- ~~Clean up code snippet so that it's actually functional. It's a part of a bigger script, and so some interconnecting parts need to be tied up.~~
